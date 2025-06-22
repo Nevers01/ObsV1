@@ -8,7 +8,7 @@ namespace Obs_Basic.Helper
 {
     internal class AiManager
     {
-        private readonly string apiUrl = "http://141.98.112.152:5000/api/ai"; // kendi endpoint'in
+        private readonly string apiUrl = ""; // kendi endpoint'in
 
         public async Task<string> GetAiResponseAsync(string prompt)
         {
